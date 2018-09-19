@@ -1,0 +1,10 @@
+[user]
+    name = <Firstname> <Lastname>
+    email = <firstname>.<lastname>@companymail.com
+
+# Optional: If using different SSH keys for each account
+[core]
+    sshCommand = "ssh -i ~/.ssh/<private key>"
+
+[credential]
+    namespace = work-profile
